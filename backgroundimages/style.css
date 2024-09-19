@@ -1,0 +1,43 @@
+.entpic{
+    width: 250px;
+    height: 200px;
+   
+    object-fit: cover;
+}
+.entdiv{
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: orange;
+    display: inline-block;
+    border: 10px solid blue;
+}
+.entdiv p{
+    text-align: justify;
+    padding:-10px ;
+    
+   
+}
+#Rajinipic{
+    object-fit:cover ;
+    object-position: 0px 00px;
+}  
+#rajinidiv{
+    background-image: url(./images/rajinilogo.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    border: 20px dashed green;
+    background-origin: padding-box ;
+    
+    
+}
+#chirudiv{
+    background-image: url(./images/chiru\ logo.jpg_large);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y:bottom ;
+    background-attachment: scroll;
+    border: 25px dotted blueviolet;
+    background-clip: border-box ;
+}
